@@ -1,0 +1,22 @@
+.services {
+  padding: 70px 24px 10px;
+}
+
+.divider {
+    margin: auto;
+}
+
+.services__title > h3 {
+    text-align: center;
+}
+
+.services__text > p {
+    text-align: center;
+    padding: 15px 0;
+    letter-spacing: 0.1px;
+}
+
+.services__image > img {
+    max-width: 220px;
+    padding-top: 30px;
+}

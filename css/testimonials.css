@@ -1,0 +1,66 @@
+.testimonials {
+  padding: 70px 24px 10px;
+}
+
+.testimonials__content-title {
+  text-align: center;
+}
+
+.content-carousel-quote {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 40px 0 0;
+}
+
+.divider {
+  width: 3%;
+}
+
+.content-carousel-quote > svg {
+  fill: rgb(246, 125, 107);
+  width: 55px;
+  height: 55px;
+}
+
+.content-carousel-title > p {
+  font-size: 18px;
+  color: #697388;
+  font-weight: 400;
+  padding-bottom: 15px;
+  text-align: center;
+}
+.content-carousel-text > p {
+  margin: 0 20px;
+  padding-top: 15px;
+  letter-spacing: 0.7px;
+}
+
+.content-carousel-date > p {
+  color: rgb(246, 125, 107);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #020202 !important;
+}
+
+.slick-prev {
+  left: -20px !important;
+  z-index: 1;
+}
+
+.slick-next {
+  right: -20px !important;
+  z-index: 1;
+}
+
+.content-carousel-block {
+  height: 550px !important;
+}

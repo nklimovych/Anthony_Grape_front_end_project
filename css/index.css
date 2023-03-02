@@ -1,6 +1,11 @@
 @import url(common.css);
 @import url(header.css);
-@import url(discover.css);
-@import url(featured.css);
-@import url(bookorder.css);
+@import url(welcome.css);
+@import url(history-expression.css);
+@import url(popular.css);
+@import url(services.css);
+@import url(unique.css);
+@import url(testimonials.css);
+@import url(recipes.css);
+@import url(gallery.css);
 @import url(footer.css);

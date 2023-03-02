@@ -1,0 +1,24 @@
+.welcome__central-column-photo > img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.welcome__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.welcome__central-column {
+  background-image: url(/media/chef-bg.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 40px;
+}
+
+.welcome__right-column {
+  padding-top: 30px;
+}
