@@ -19,7 +19,7 @@
 
 .history-expression {
   display: block;
-  background-image: url("/media/expression-bg.svg");
+  background-image: url("../media/expression-bg.svg");
   background-size: cover;
   background-position: center center;
   max-width: 1550px;

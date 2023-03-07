@@ -7,7 +7,7 @@ $(".testimonials__content-carousel").slick({
   slidesToScroll: 1,
   responsive: [
     {
-      breakpoint: 768,
+      breakpoint: 992,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1,

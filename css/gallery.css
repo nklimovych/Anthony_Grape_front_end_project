@@ -46,7 +46,7 @@
 
 .gallery__content {
   display: block;
-  background-image: url("/media/bg-gallery.svg");
+  background-image: url("../media/bg-gallery.svg");
   background-size: cover;
   background-position: center center;
   max-width: 1550px;

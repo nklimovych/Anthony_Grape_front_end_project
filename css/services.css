@@ -24,21 +24,21 @@
 
 .dining {
   display: block;
-  background-image: url("/media/bg-in-home-dining.svg");
+  background-image: url("../media/bg-in-home-dining.svg");
   background-size: 95%;
   background-repeat: no-repeat;
 }
 
 .private {
   display: block;
-  background-image: url("/media/bg-private-classes.svg");
+  background-image: url("../media/bg-private-classes.svg");
   background-size: 95%;
   background-repeat: no-repeat;
 }
 
 .wedding {
   display: block;
-  background-image: url("/media/bg-wedding-catering.svg");
+  background-image: url("../media/bg-wedding-catering.svg");
   background-size: 95%;
   background-repeat: no-repeat;
 }
