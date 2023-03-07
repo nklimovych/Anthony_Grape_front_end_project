@@ -1,5 +1,5 @@
 .history-expression {
-  padding-bottom: 65px;
+  padding-bottom: 15px;
 }
 
 .history__year > p {
@@ -15,6 +15,15 @@
 .history__text > p {
   text-align: center;
   padding: 0 24px;
+}
+
+.history-expression {
+  display: block;
+  background-image: url("/media/expression-bg.svg");
+  background-size: cover;
+  background-position: center center;
+  max-width: 1550px;
+  margin: auto;
 }
 
 .expression__text {
@@ -40,12 +49,13 @@
   font-family: "Cormorant Garamond", serif;
   font-size: 22px;
   letter-spacing: 3px;
+  padding-left: 10px;
 }
 
 .expression__author {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 
@@ -61,4 +71,35 @@
   position: absolute;
   width: 100%;
   height: 100%;
+}
+
+@media (min-width: 768px) {
+  .history__content {
+    display: flex;
+  }
+
+  .history__year > p {
+    font-size: 58px;
+  }
+
+  .expression__text {
+    max-width: 850px;
+    margin: auto;
+  }
+
+  .expression__text > p {
+    font-size: 32px;
+  }
+
+  .expression__author {
+    justify-content: center;
+  }
+
+  .expression__author > p {
+    padding-left: 20px;
+  }
+
+  .expression__signature > img {
+    min-height: 48px;
+  }
 }

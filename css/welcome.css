@@ -22,3 +22,39 @@
 .welcome__right-column {
   padding-top: 30px;
 }
+
+
+@media (min-width: 768px) {
+  h4 {
+    padding-bottom: 10px;
+  }
+
+  .welcome__columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .welcome__central-column-photo > img {
+    min-width: 350px;
+  }
+
+  .welcome__central-column-photo {
+    margin: auto;
+  }
+
+  .welcome__left-column-divider {
+    width: 50px; 
+  }
+
+  .column {
+    max-width: 350px;
+  }
+
+  .welcome__left-column-divider.divider {
+    width: 40px;
+    margin: 0;
+  }
+
+}

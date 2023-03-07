@@ -43,3 +43,12 @@
   right: -10px !important;
   z-index: 1;
 }
+
+.gallery__content {
+  display: block;
+  background-image: url("/media/bg-gallery.svg");
+  background-size: cover;
+  background-position: center center;
+  max-width: 1550px;
+  margin: auto;
+}

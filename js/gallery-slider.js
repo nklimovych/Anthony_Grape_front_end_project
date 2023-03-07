@@ -9,7 +9,7 @@ $(".gallery__carousel").slick({
   slidesToScroll: 1,
   responsive: [
     {
-      breakpoint: 992,
+      breakpoint: 1100,
       settings: {
         slidesToShow: 5,
         slidesToScroll: 1,
@@ -18,9 +18,18 @@ $(".gallery__carousel").slick({
       },
     },
     {
-      breakpoint: 768,
+      breakpoint: 992,
       settings: {
         slidesToShow: 4,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: false,
+      },
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 3,
         slidesToScroll: 1,
       },
     },

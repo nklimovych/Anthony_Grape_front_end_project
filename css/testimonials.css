@@ -13,8 +13,9 @@
   padding: 40px 0 0;
 }
 
-.divider {
+.testemonials-divider {
   width: 3%;
+  margin: auto;
 }
 
 .content-carousel-quote > svg {
@@ -31,7 +32,7 @@
   text-align: center;
 }
 .content-carousel-text > p {
-  margin: 0 20px;
+  margin: auto;
   padding-top: 15px;
   letter-spacing: 0.7px;
 }
@@ -63,4 +64,15 @@
 
 .content-carousel-block {
   height: 550px !important;
+  border: 1px #020202;
+}
+
+@media (min-width: 768px) {
+  .content-carousel-block {
+    height: 400px !important;
+  }
+
+  .content-carousel-text > p {
+    width: 500px;
+  }
 }

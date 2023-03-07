@@ -2,21 +2,55 @@
   padding: 70px 24px 10px;
 }
 
-.divider {
-    margin: auto;
+.service-divider {
+  width: 40px;
+  margin: auto;
 }
 
 .services__title > h3 {
-    text-align: center;
+  text-align: center;
 }
 
 .services__text > p {
-    text-align: center;
-    padding: 15px 0;
-    letter-spacing: 0.1px;
+  text-align: center;
+  padding: 15px 0;
+  letter-spacing: 0.1px;
 }
 
 .services__image > img {
-    max-width: 220px;
-    padding-top: 30px;
+  max-width: 280px;
+  padding-top: 30px;
+}
+
+.dining {
+  display: block;
+  background-image: url("/media/bg-in-home-dining.svg");
+  background-size: 95%;
+  background-repeat: no-repeat;
+}
+
+.private {
+  display: block;
+  background-image: url("/media/bg-private-classes.svg");
+  background-size: 95%;
+  background-repeat: no-repeat;
+}
+
+.wedding {
+  display: block;
+  background-image: url("/media/bg-wedding-catering.svg");
+  background-size: 95%;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  .services__content {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+  }
+
+  .service-box {
+    max-width: 380px;
+  }
 }
