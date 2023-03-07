@@ -42,7 +42,12 @@
 
 /* Accordion */
 
-.unique__accordion > h3 {
+.unique__accordion > p {
+  font-family: "Cormorant Garamond", serif;
+  color: #071b54;
+  font-weight: 400;
+  font-size: 22px;
+  letter-spacing: 2px;
   padding: 0;
 }
 

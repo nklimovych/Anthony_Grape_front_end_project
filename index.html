@@ -105,7 +105,7 @@
     </header>
 
     <main>
-      <section class="welcome" id="welcome-id">
+      <section class="welcome" id="welcome">
         <div class="welcome__content container">
           <div class="welcome__title">
             <h1>ANTHONY GRAPE</h1>
@@ -168,7 +168,7 @@
           </div>
         </div>
       </section>
-      <section class="history-expression">
+      <section class="history-expression" id="history-expression">
         <div class="history__content container">
           <div class="history__moved-to-new-york">
             <div class="history__year">
@@ -220,7 +220,7 @@
           </div>
         </div>
       </section>
-      <section class="popular">
+      <section class="popular" id="popular">
         <div class="popular__content container">
           <div class="popular__header">
             <h2 class="popular__header-title">POPULAR DISHES</h2>
@@ -298,7 +298,7 @@
           </div>
         </div>
       </section>
-      <section class="services">
+      <section class="services" id="services">
         <div class="services__content container">
           <div class="services__dining">
             <div class="services__image">
@@ -362,7 +362,7 @@
           </div>
         </div>
       </section>
-      <section class="unique">
+      <section class="unique" id="unique">
         <div class="unique__content container">
           <div class="unique__left-column">
             <div class="unique__left-column-image">
@@ -401,7 +401,10 @@
               </p>
             </div>
             <div class="unique__right-column-accordion">
-              <button class="unique__accordion"><h3>CONSULTATION</h3></button>
+              <button class="unique__accordion">
+                <p>CONSULTATION</p>
+                <p></p>
+              </button>
               <div class="unique__accordion-panel">
                 <p>
                   Contact me to discuss your special occasion, your food
@@ -409,7 +412,7 @@
                 </p>
               </div>
               <hr />
-              <button class="unique__accordion"><h3>THE MEAL</h3></button>
+              <button class="unique__accordion"><p>THE MEAL</p></button>
               <div class="unique__accordion-panel">
                 <p>
                   I prepare all dishes from only the freshest, handpicked
@@ -419,7 +422,7 @@
                 </p>
               </div>
               <hr />
-              <button class="unique__accordion"><h3>THE SERVICE</h3></button>
+              <button class="unique__accordion"><p>THE SERVICE</p></button>
               <div class="unique__accordion-panel">
                 <p>
                   I will arrive at your location one hour prior to serving food
@@ -440,7 +443,7 @@
           </div>
         </div>
       </section>
-      <section class="testimonials">
+      <section class="testimonials" id="testimonials">
         <div class="testimonials__content container">
           <div class="testimonials__content-title">
             <h2>WHAT MY CLIENTS SAY</h2>
@@ -451,7 +454,7 @@
           <div class="testimonials__content-carousel">
             <button type="button" class="slick-prev">&lt;</button>
             <button type="button" class="slick-next">&gt;</button>
-            <div class="content-carousel-block" id="content-carousel-block-id">
+            <div class="content-carousel-block">
               <div class="content-carousel-quote">
                 <svg>
                   <use xlink:href="media/quotes.svg#icon"></use>
@@ -475,7 +478,7 @@
                 <p>March 03, 2022</p>
               </div>
             </div>
-            <div class="content-carousel-block" id="content-carousel-block-id">
+            <div class="content-carousel-block">
               <div class="content-carousel-quote">
                 <svg>
                   <use xlink:href="media/quotes.svg#icon"></use>
@@ -499,7 +502,7 @@
                 <p>November 13, 2022</p>
               </div>
             </div>
-            <div class="content-carousel-block" id="content-carousel-block-id">
+            <div class="content-carousel-block">
               <div class="content-carousel-quote">
                 <svg>
                   <use xlink:href="media/quotes.svg#icon"></use>
@@ -526,7 +529,7 @@
           </div>
         </div>
       </section>
-      <section class="recipes">
+      <section class="recipes" id="recipes">
         <div class="recipes__content container">
           <div class="recipes__title">
             <h2>CHEF'S RECIPES</h2>
@@ -660,7 +663,7 @@
           </div>
         </div>
       </section>
-      <section class="gallery">
+      <section class="gallery" id="gallery">
         <div class="gallery__content container">
           <div class="gallery__title title">
             <h2>INSTAGRAM GALLERY</h2>
@@ -671,19 +674,37 @@
           <div class="gallery__carousel">
             <button type="button" class="slick-prev">&lt;</button>
             <button type="button" class="slick-next">&gt;</button>
-            <div><img src="media/slider-img-pasta.png" alt="dish with pasta" /></div>
-            <div><img src="media/slider-img-steak.png" alt="dish with steak" /></div>
-            <div><img src="media/slider-img-seafood.png" alt="dish with seafood" /></div>
-            <div><img src="media/slider-img-vegan.png" alt="dish with vegan food" /></div>
-            <div><img src="media/slider-img-italian-pasta.png" alt="dish with pasta" /></div>
-            <div><img src="media/slider-img-fish.png" alt="dish with fish on it" /></div>
+            <div>
+              <img src="media/slider-img-pasta.png" alt="dish with pasta" />
+            </div>
+            <div>
+              <img src="media/slider-img-steak.png" alt="dish with steak" />
+            </div>
+            <div>
+              <img src="media/slider-img-seafood.png" alt="dish with seafood" />
+            </div>
+            <div>
+              <img
+                src="media/slider-img-vegan.png"
+                alt="dish with vegan food"
+              />
+            </div>
+            <div>
+              <img
+                src="media/slider-img-italian-pasta.png"
+                alt="dish with pasta"
+              />
+            </div>
+            <div>
+              <img src="media/slider-img-fish.png" alt="dish with fish on it" />
+            </div>
           </div>
           <hr />
         </div>
       </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer" id="footer">
       <section class="footer__main">
         <div class="footer__main-content container">
           <div class="footer__left-column">
@@ -770,17 +791,17 @@
           </div>
         </div>
       </section>
-      <section class="footer__copyrights">
-        <hr>
+      <section class="footer__copyrights" id="footer__copyrights">
+        <hr />
         <div class="footer__copyrights-spans">
-          <div class="footer__copyrights-spans-left"  id="footer__span">
+          <div class="footer__copyrights-spans-left">
             <span>© Created by Nazar Klimovych </span>
           </div>
-          <div class="footer__copyrights-spans-right"  id="footer__span">
+          <div class="footer__copyrights-spans-right">
             <span> All rights Reserved</span>
           </div>
         </div>
-        <hr>
+        <hr />
       </section>
     </footer>
     <script src="js/burger-menu.js"></script>
