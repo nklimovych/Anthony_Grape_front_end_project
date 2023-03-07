@@ -42,7 +42,7 @@
 
 /* Accordion */
 
-.unique__accordion > p {
+.unique__accordion > span {
   font-family: "Cormorant Garamond", serif;
   color: #071b54;
   font-weight: 400;
