@@ -20,6 +20,7 @@
 .services__image > img {
   max-width: 280px;
   padding-top: 30px;
+  width: 100%;
 }
 
 .dining {
@@ -27,6 +28,8 @@
   background-image: url("../media/bg-in-home-dining.svg");
   background-size: 95%;
   background-repeat: no-repeat;
+  max-width: 400px;
+  margin: auto;
 }
 
 .private {
@@ -34,6 +37,8 @@
   background-image: url("../media/bg-private-classes.svg");
   background-size: 95%;
   background-repeat: no-repeat;
+  max-width: 400px;
+  margin: auto;
 }
 
 .wedding {
@@ -41,6 +46,8 @@
   background-image: url("../media/bg-wedding-catering.svg");
   background-size: 95%;
   background-repeat: no-repeat;
+  max-width: 400px;
+  margin: auto;
 }
 
 @media (min-width: 768px) {
