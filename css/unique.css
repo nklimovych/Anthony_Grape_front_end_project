@@ -69,7 +69,7 @@
   color: #071b54;
   font-size: 12px;
   float: right;
-  margin: -23px 0;
+  margin: 5px;
 }
 
 .unique__accordion.active:after {
