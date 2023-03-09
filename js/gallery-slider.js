@@ -8,6 +8,8 @@
     speed: 300,
     slidesToShow: 1,
     slidesToScroll: 1,
+    swipe: true,
+    touchMove: true,
     responsive: [
       {
         breakpoint: 1100,
