@@ -108,10 +108,12 @@
 
   .footer__left-column-title > h2 {
     padding-top: 0;
+    font-size: 23px;
   }
 
   .footer__right-column-title > h2 {
     padding-top: 0;
+    font-size: 23px;
   }
 
   .footer__logo-svg {
@@ -128,5 +130,18 @@
     max-width: 1200px;
     align-items: center;
     margin: auto;
+  }
+
+  .footer__right-column-menu > a:hover {
+    text-decoration: underline;
+    color: darkblue;
+  }
+
+  .column-item > a:hover {
+    text-decoration: underline;
+  }
+
+  .footer__central-column-socials :hover {
+    fill: rgb(246, 62, 33);
   }
 }
