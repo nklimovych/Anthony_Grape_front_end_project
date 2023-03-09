@@ -214,8 +214,9 @@
 .header__menu-info > p {
   color: darkblue;
   font-weight: 600;
+  padding: 20px 0 0;
   font-size: 12px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 
 .header__menu-info > a {
@@ -223,7 +224,7 @@
   color: darkblue;
   font-weight: 600;
   font-size: 12px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 
 .header__menu-info > a:hover {
@@ -280,6 +281,12 @@
   .header__background-image {
     height: auto;
     max-width: 130%;
+  }
+
+  .header__menu-info {
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
   }
 }
 
