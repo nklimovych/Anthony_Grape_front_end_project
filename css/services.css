@@ -53,6 +53,7 @@
 @media (min-width: 768px) {
   .services__content {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin: auto;
   }

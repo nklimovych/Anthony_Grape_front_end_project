@@ -61,11 +61,14 @@
 @media (min-width: 768px) {
   .content-recipes {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
   }
 
   .recipes-block {
-    padding: 0 5px;
+    padding: 0 10px;
+    max-width: 380px;
   }
 
   .recipes__image > img {

@@ -76,6 +76,12 @@
 @media (min-width: 768px) {
   .history__content {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .history-box {
+    max-width: 400px;
   }
 
   .history__year > p {
@@ -83,7 +89,7 @@
   }
 
   .expression__text {
-    max-width: 850px;
+    max-width: 600px;
     margin: auto;
   }
 

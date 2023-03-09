@@ -232,7 +232,8 @@
 }
 
 .header__background-image {
-  height: 300px;
+  height: auto;
+  min-width: 130%;
   margin: 0 auto;
 }
 
@@ -240,7 +241,7 @@
 
   .header__background-image {
     height: auto;
-    max-width: 100%;
+    max-width: 130%;
   }
 }
 

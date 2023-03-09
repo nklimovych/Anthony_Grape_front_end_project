@@ -2,7 +2,7 @@
     const burgerButton = document.querySelector(".header__burger-menu");
     const navigationsBody = document.querySelector(".header__menu-container");
     burgerButton.addEventListener("click", function (e) {
-        document.body.classList.toggle("lock");
+        document.body.style.overflow = "hidden";
         burgerButton.classList.toggle("active");
         navigationsBody.classList.toggle("active");
     });
@@ -11,11 +11,16 @@
     navLinks.forEach((navLink) => {
         navLink.addEventListener("click", (_) => {
             if (burgerButton.classList.contains("active")) {
-                document.body.classList.remove("lock");
+                document.body.style.overflow = "auto";
                 burgerButton.classList.remove("active");
                 navigationsBody.classList.remove("active");
             }
+        });
+    });
+
+    burgerButton.addEventListener("click", (_) => {
+        if (!burgerButton.classList.contains("active")) {
+            document.body.style.overflow = "auto";
         }
-        );
     });
 })();
